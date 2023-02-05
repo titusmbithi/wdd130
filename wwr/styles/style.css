@@ -1,0 +1,36 @@
+body {
+    background-color: #fcfbfb; 
+    height: 725px;
+}
+::content{
+    width: 1600px;
+
+}
+.img{
+    align-items: center;
+}
+
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}    
+.icon {
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}    

@@ -1,0 +1,39 @@
+body {
+    background-color: #f2a5c8;
+    text-align: center;
+    
+}
+img {
+    margin: 10px auto;
+    width: 20%; 
+}
+.par {
+    color: white;
+    text-align: center;
+    max-width: 25%;
+    margin: 0 auto;
+}
+.dos:hover {
+    color: black;
+
+
+}
+.dos {
+    color: white;
+}
+.sos {
+    color: white;
+    text-align: center;
+    max-width: 25%;
+    margin: 0 auto;
+}
+.car {
+    max-width: 25%;
+    margin: 20px auto;
+    text-align: left;
+
+}
+.cow {
+    max-width: 25%;
+    margin: 20px auto;
+}
