@@ -1,36 +1,150 @@
-body {
-    background-color: #fcfbfb; 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&Didact+Gothic&Inter+Tight:wght@300&family=PT+Sans+Narrow&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: auto;
+}
+
+nav a{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
     height: 725px;
-}
-::content{
-    width: 1600px;
-
-}
-.img{
-    align-items: center;
+    background-color: goldenrod;
 }
 
-header {
-    background-color:rgba(20,30,13, .7);
+body{
+    background-color:antiquewhite;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
 }
-nav a:hover {
-    background-color: black;
+
+header{
+    background-color:sandybrown;
 }
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
-}    
-.icon {
+
+nav a:hover{
+    background-color:aliceblue;
+    color:darkslategrey
+}
+
+.book, .join{
+    background-color: rgb(176, 194, 212);
+    color:darkred;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover{
+    background-color: lightcyan;
+    color:black;
+}
+
+.msg{
+    background-color: khaki;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+footer{
+    background-color: tan;
+    color:black;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+.home-title{
+    color:crimson;
+    font-family:'Permanent Marker','Inter Thight', 'PT Sans Narrow';
+    font-size:2em;
+    text-shadow:3px 3px 3px #ababab;
+}
+h4{
+    color:darkblue;
+}
+
+.msg h2{
+    color:darkgreen;
+    font-family:'Permanent Marker','Inter Thight', 'PT Sans Narrow';
+    font-size:40px;
+    text-shadow:3px 3px 3px #ababab;
+}
+
+.msg p{
+    color:firebrick;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer a{
+    color:rgb(29, 83, 136);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:rgb(247, 73, 5);
+}
+
+.icon{
+    width: 80px;
+    padding: 10px;
+}
+
+.logo{
     width: 80px;
 }
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}    
-footer p {
+
+#hero-img{
+    width:100%;
+}
+
+footer p{
     font-size: 1.2em;
-}    
-footer p a:hover {
+}
+
+footer p a:hover{
     text-decoration: underline;
-}    
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer, .social, img{
+    padding-top:15px;
+}
+
+.home-title{
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid darkgoldenrod;
+}
+
+main section img{
+    box-sizing: border-box;
+}
